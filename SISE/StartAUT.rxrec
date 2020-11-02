@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="358c1ed3-510d-406e-bdfa-dcda3a7cec28"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="SISE">
+	</codegen>
+	<variables>
+		<var
+		id="0b586890-64f2-44e5-967f-243adb762118"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\SISE-RSA\putty.exe
+			</filename>
+			<args>
+				-load sisepreprod
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="e5ef5a4b-5427-42d6-b3e2-9394de03ed52"
+	name="SISERepository"
+	relativepath="SISERepository.rxrep">
+		<codegen
+		classname="SISERepository"
+		namespace="SISE">
+		</codegen>
+		<rootfolder
+		id="f4f343a7-113c-4a65-8a38-09298a549234"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
