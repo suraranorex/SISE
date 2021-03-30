@@ -23,13 +23,12 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="Polizas"
 			errorbehavior="ContinueNextIteration"
 			id="05457b33-9c58-43e0-b590-259bad2472dc"
 			maxrange="100"
 			minrange="88"
-			name="TestCase">
+			name="ValidaAltaPoliza">
 			</testcase>
 			<teardown
 			id="3213ff0f-2241-443e-a172-f0805d113ca1"
@@ -163,7 +162,7 @@
 				name="SISE">
 					<testcase
 					id="05457b33-9c58-43e0-b590-259bad2472dc"
-					name="TestCase">
+					name="ValidaAltaPoliza">
 						<setup
 						id="5026dba8-b91b-4bb9-904b-9a86dc112988"
 						name="setup">
@@ -217,7 +216,7 @@
 		<DataSource
 		id="708b9b90-4543-48a7-86e6-bfe78604edb6"
 		includefile="Unchecked"
-		lastknownrowcount="101"
+		lastknownrowcount="19"
 		name="Polizas"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -232,7 +231,7 @@
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				R:\TEMP\Polizas\polizas.csv
+				C:\TEMP\Polizas\polizas.csv
 			</file>
 		</DataSource>
 		<DataSource
@@ -257,9 +256,9 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="ValidaAltaSISE">
 		<testconfiguration
-		name="TestRun">
+		name="ValidaAltaSISE">
 			<testcontainer
 			id="05457b33-9c58-43e0-b590-259bad2472dc">
 			</testcontainer>

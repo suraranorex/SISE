@@ -114,29 +114,29 @@ namespace SISE
             
             Report.Log(ReportLevel.Info, "User", PolizaConvertida, new RecordItemIndex(2));
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
+            Delay.Duration(3000, false);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'sistema{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(4));
             repo.SisePreProd.Self.PressKeys("sistema{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 12s.", new RecordItemIndex(5));
+            Delay.Duration(12000, false);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '990{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(6));
             repo.SisePreProd.Self.PressKeys("990{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(7));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Sura2036{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(8));
-            repo.SisePreProd.Self.PressKeys("Sura2036{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Sura2039{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(8));
+            repo.SisePreProd.Self.PressKeys("Sura2039{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            Delay.Duration(5000, false);
             
             // Validación del Login (Texto: MENU PRINICPAL)
             ValidarLogin("M E N U    P R I N C I P A L", "Validación del Login");

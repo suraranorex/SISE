@@ -407,7 +407,7 @@ RW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH//Z
 			</bindings>
 		</loggingrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="3000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -746,7 +746,7 @@ RRRQB//Z
 			</helperscreenshot>
 		</keysequenceitem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="12000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -1102,7 +1102,7 @@ VAwooooAKKKKAP/Z
 			</helperscreenshot>
 		</keysequenceitem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -1111,7 +1111,7 @@ VAwooooAKKKKAP/Z
 			</bindings>
 		</explicitdelayitem>
 		<keysequenceitem
-		KeySequence="Sura2036{Return}"
+		KeySequence="Sura2039{Return}"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -1475,7 +1475,7 @@ ip4v9Sn+6KKKiaSdkVF3Q+iiioGFFFFABRRRQB//2Q==
 			</helperscreenshot>
 		</keysequenceitem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
