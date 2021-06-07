@@ -126,7 +126,7 @@ namespace SISE
             public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "205cf496-b57a-46a6-a0b2-f79c6524a04f", "")
             {
-                _sisepreprod1ventanadeejecucionInfo = new RepoItemInfo(this, "SISEPREPROD1VentanaDeEjecucion", "container[@controlid='40965']//toolbar[@accessiblename='Aplicaciones en ejecución']/button[@accessiblename>'SISE PREPROD - 1 ventana de']", 30000, null, "18c0838a-66cd-4c1b-b427-11d2cd09a70b");
+                _sisepreprod1ventanadeejecucionInfo = new RepoItemInfo(this, "SISEPREPROD1VentanaDeEjecucion", "container[@controlid='40965']//toolbar[@accessiblename='Aplicaciones en ejecución']/button[@accessiblename>'SISE PREPROD - 1 ventana de']", "", 30000, null, "18c0838a-66cd-4c1b-b427-11d2cd09a70b");
             }
 
             /// <summary>
@@ -192,7 +192,7 @@ namespace SISE
             public SisePreProdAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SisePreProd", "/form[@title='Sise Pre Prod']", parentFolder, 30000, null, true, "d15925a6-9610-499e-9464-48d1c1386f87", "")
             {
-                _sistemaInfo = new RepoItemInfo(this, "Sistema", "?/?/menuitem[@accessiblename='Sistema']", 30000, null, "99a239ff-8c73-4359-af78-9d72c0bccc02");
+                _sistemaInfo = new RepoItemInfo(this, "Sistema", "?/?/menuitem[@accessiblename='Sistema']", "", 30000, null, "99a239ff-8c73-4359-af78-9d72c0bccc02");
             }
 
             /// <summary>
@@ -258,7 +258,7 @@ namespace SISE
             public PuttyAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Putty", "/contextmenu[@processname='putty']", parentFolder, 30000, null, false, "0f75a26d-46b9-4239-ac61-63bbc6b9a3d1", "")
             {
-                _copyalltoclipboardInfo = new RepoItemInfo(this, "CopyAllToClipboard", "?/?/menuitem[@accessiblename='Copy All to Clipboard']", 30000, null, "d6ea5e5e-5b4b-4397-b33c-8313330de3b9");
+                _copyalltoclipboardInfo = new RepoItemInfo(this, "CopyAllToClipboard", "?/?/menuitem[@accessiblename='Copy All to Clipboard']", "", 30000, null, "d6ea5e5e-5b4b-4397-b33c-8313330de3b9");
             }
 
             /// <summary>
@@ -324,7 +324,7 @@ namespace SISE
             public PuTTYExitConfirmationAppFolder(RepoGenBaseFolder parentFolder) :
                     base("PuTTYExitConfirmation", "/form[@title='PuTTY Exit Confirmation']", parentFolder, 30000, null, true, "7d749db4-24fb-41bd-bd5b-fcf93beac97c", "")
             {
-                _aceptarInfo = new RepoItemInfo(this, "Aceptar", "button[@text='Aceptar']", 30000, null, "eae3ff0f-bb1c-48e7-9796-af3ce63ff9cd");
+                _aceptarInfo = new RepoItemInfo(this, "Aceptar", "button[@text='Aceptar']", "", 30000, null, "eae3ff0f-bb1c-48e7-9796-af3ce63ff9cd");
             }
 
             /// <summary>

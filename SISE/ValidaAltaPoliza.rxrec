@@ -194,6 +194,8 @@ EN5iQQMAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="b8d2a4db-f8f8-4e91-aea5-4c65581fb86c">
@@ -570,6 +572,8 @@ EN5iQQMAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5538d1cb-3169-4d3f-9bcb-4bdd08dc714c">
@@ -909,6 +913,8 @@ EN5iQQMAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2e2055ac-c03c-4f00-b89a-3d0481459de5">
@@ -1111,7 +1117,7 @@ VAwooooAKKKKAP/Z
 			</bindings>
 		</explicitdelayitem>
 		<keysequenceitem
-		KeySequence="Sura2039{Return}"
+		KeySequence="Sura2040{Return}"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -1265,6 +1271,8 @@ EN5iQQMAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="fcb3f0cd-114b-4264-84a0-c7c7101bf6d9">
@@ -1491,7 +1499,7 @@ ip4v9Sn+6KKKiaSdkVF3Q+iiioGFFFFABRRRQB//2Q==
 		namespace="SISE"
 		optional="False">
 			<comment>
-				Validaci&#243;n del Login (Texto: MENU PRINICPAL)
+				Validación del Login (Texto: MENU PRINICPAL)
 			</comment>
 			<bindings>
 			</bindings>
@@ -1514,7 +1522,7 @@ ip4v9Sn+6KKKiaSdkVF3Q+iiioGFFFFABRRRQB//2Q==
 						System.String
 					</argvaluetype>
 					<argvalue>
-						Validaci&#243;n del Login
+						Validación del Login
 					</argvalue>
 				</argument>
 			</arguments>
@@ -1674,6 +1682,8 @@ EN5iQQMAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="8da114e7-ba43-4e0f-aea1-d5581f38794d">
@@ -1968,6 +1978,8 @@ g+U/XvRRW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH/9k=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<explicitdelayitem
@@ -1996,6 +2008,8 @@ g+U/XvRRW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH/9k=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<explicitdelayitem
@@ -2162,6 +2176,8 @@ EN5iQQMAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f48a7797-1081-4a97-bf66-67d33e52e9ee">
@@ -2478,6 +2494,8 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -2497,6 +2515,8 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<explicitdelayitem
@@ -2516,7 +2536,7 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 		namespace="SISE"
 		optional="False">
 			<comment>
-				Validaci&#243;n de P&#243;liza Existente
+				Validación de Póliza Existente
 			</comment>
 			<bindings>
 			</bindings>
@@ -2539,7 +2559,7 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 						System.String
 					</argvaluetype>
 					<argvalue>
-						Validaci&#243;n de P&#243;liza
+						Validación de Póliza
 					</argvalue>
 				</argument>
 			</arguments>
@@ -2562,6 +2582,8 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 				<path>
 					/form[@title='Sise Pre Prod']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -2635,6 +2657,8 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 				<path>
 					/form[@title='Sise Pre Prod']/?/?/menuitem[@accessiblename='Sistema']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="d1c606e9-576c-4df1-9225-718ecfbeac62">
@@ -2765,6 +2789,8 @@ mTRTJ1O3liSaMpIu5evpj/CkhhSEHZu56lmLE/iaKKRRJRRRQAU00UUAZ+r/APIOn/3DXP3ljFBp
 				<path>
 					/contextmenu[@processname='putty']/?/?/menuitem[@accessiblename='Copy All to Clipboard']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="a77f8ab1-ad60-4ab3-b0b8-f39aab932830">

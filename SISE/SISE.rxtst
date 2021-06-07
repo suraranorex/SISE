@@ -137,16 +137,21 @@
 			VideoFps="15"
 			VideoRecordingMode="Off"
 			VideoSource="Auto"
+			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="f2c035c4-137c-4187-8336-05ee31e80bee"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
 			name="SISE"
+			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<setup
 			id="fc041710-6efb-484b-9767-ed5b5935ffff"
@@ -216,7 +221,7 @@
 		<DataSource
 		id="708b9b90-4543-48a7-86e6-bfe78604edb6"
 		includefile="Unchecked"
-		lastknownrowcount="19"
+		lastknownrowcount="73"
 		name="Polizas"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
