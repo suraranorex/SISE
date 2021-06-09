@@ -221,7 +221,7 @@
 		<DataSource
 		id="708b9b90-4543-48a7-86e6-bfe78604edb6"
 		includefile="Unchecked"
-		lastknownrowcount="73"
+		lastknownrowcount="2"
 		name="Polizas"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -236,7 +236,7 @@
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				C:\TEMP\Polizas\polizas.csv
+				C:\TEMP\Polizas\Smoke\polizas.csv
 			</file>
 		</DataSource>
 		<DataSource
