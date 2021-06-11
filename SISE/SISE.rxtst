@@ -163,6 +163,7 @@
 			</testmodule>
 			<testcase
 			datasource="Polizas"
+			errorbehavior="ContinueNextIteration"
 			id="cf030ef8-3471-446d-b059-179f0be38bd6"
 			name="ValidaAltaPolizaQA">
 			</testcase>
@@ -340,7 +341,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="ValidaAltaPolizaQA">
+	default="ValidaAltaSISEPreProd">
 		<testconfiguration
 		name="ValidaAltaPolizaQA">
 			<testcontainer
