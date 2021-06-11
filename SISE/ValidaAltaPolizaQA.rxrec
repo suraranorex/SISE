@@ -1991,27 +1991,6 @@ g+U/XvRRW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH/9k=
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<keysequenceitem
-		KeySequence="1{Return}"
-		duration="20ms"
-		enabled="True"
-		optional="False"
-		presstime="20ms"
-		searchpropertyid="17851060-b0fc-42c9-9534-90035306bc1e">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="d15925a6-9610-499e-9464-48d1c1386f87"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title='Sise Pre Prod']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</keysequenceitem>
 		<explicitdelayitem
 		duration="2000ms"
 		enabled="True"
