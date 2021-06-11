@@ -171,6 +171,18 @@
       <UserCode>true</UserCode>
       <id>1744a340-fcb9-4f3e-a3a5-7429d2fdd535</id>
     </Compile>
+    <Compile Include="ValidaAltaPolizaQA.cs">
+      <BoundTo>3f5d0d53-d125-4b10-b2e9-8f80e687a1c9</BoundTo>
+      <DependentUpon>ValidaAltaPolizaQA.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e390e1e4-f40e-4bce-a482-fe407558c04a</id>
+    </Compile>
+    <Compile Include="ValidaAltaPolizaQA.UserCode.cs">
+      <BoundTo>3f5d0d53-d125-4b10-b2e9-8f80e687a1c9</BoundTo>
+      <DependentUpon>ValidaAltaPolizaQA.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4db08d97-3a2b-408a-ba4b-fe036d3badbf</id>
+    </Compile>
     <Compile Include="ValidaPagoPoliza.cs">
       <BoundTo>2782cd8e-6376-4c3e-a77a-ccfb1f3661f0</BoundTo>
       <DependentUpon>ValidaPagoPoliza.rxrec</DependentUpon>
@@ -213,6 +225,11 @@
       <BoundTo>5c3679a8-e7ae-4760-be38-c4eb0e14d61d</BoundTo>
       <id>65912d98-3964-4899-8a8f-d5a7db5ab8e1</id>
       <recordtableid>358c1ed3-510d-406e-bdfa-dcda3a7cec28</recordtableid>
+    </None>
+    <None Include="ValidaAltaPolizaQA.rxrec">
+      <BoundTo>5c3679a8-e7ae-4760-be38-c4eb0e14d61d</BoundTo>
+      <id>3f5d0d53-d125-4b10-b2e9-8f80e687a1c9</id>
+      <recordtableid>c2afd4fe-10ec-44d9-bf9f-dd57c4b0926b</recordtableid>
     </None>
     <None Include="ValidaPagoPoliza.rxrec">
       <BoundTo>5c3679a8-e7ae-4760-be38-c4eb0e14d61d</BoundTo>

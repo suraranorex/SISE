@@ -28,18 +28,52 @@
 			id="05457b33-9c58-43e0-b590-259bad2472dc"
 			maxrange="100"
 			minrange="88"
-			name="ValidaAltaPoliza">
+			name="ValidaAltaPolizaPreProd">
 			</testcase>
+			<testmodule
+			id="1519b24b-e109-47f1-8766-2a68fc384705"
+			name="CloseAUT"
+			ref="a7f4a202-fc8e-4d5e-83d1-8a756bc4ba34"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="58e386ba-3378-4080-a4a2-4f0786a91d93"
+					variableid="bc17bd61-efcc-4cba-82e7-79511de74d7f"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="3213ff0f-2241-443e-a172-f0805d113ca1"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="3c113f41-e1a1-4190-a65a-81d125e5fa5a"
+			name="StartAUT"
+			ref="358c1ed3-510d-406e-bdfa-dcda3a7cec28"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="58e386ba-3378-4080-a4a2-4f0786a91d93"
+					variableid="0b586890-64f2-44e5-967f-243adb762118"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="ValidarPago"
 			errorbehavior="ContinueNextIteration"
 			id="45dbbae0-e94a-4a9d-b048-52acd2bac713"
 			name="ValidarPago">
 			</testcase>
+			<testmodule
+			id="47e2d494-21a5-499e-beae-a427d5175fd5"
+			name="ValidaAltaPolizaQA"
+			ref="c2afd4fe-10ec-44d9-bf9f-dd57c4b0926b"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="5026dba8-b91b-4bb9-904b-9a86dc112988"
 			name="setup">
@@ -69,6 +103,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="7462e9a1-a771-43d9-bec6-331c6c82dee2"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="91bda90c-ded8-4878-8633-4dfbc5928f8b"
 			name="CloseAUT"
@@ -115,6 +153,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="Polizas"
+			id="cf030ef8-3471-446d-b059-179f0be38bd6"
+			name="ValidaAltaPolizaQA">
+			</testcase>
 			<testmodule
 			id="dc0aff39-285e-49df-b6a3-dbcacb38bcc8"
 			name="StartAUT"
@@ -129,6 +172,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="e9f04383-47bf-42f6-a566-22e9e90ca59a"
+			name="setup">
+			</setup>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -167,7 +214,7 @@
 				name="SISE">
 					<testcase
 					id="05457b33-9c58-43e0-b590-259bad2472dc"
-					name="ValidaAltaPoliza">
+					name="ValidaAltaPolizaPreProd">
 						<setup
 						id="5026dba8-b91b-4bb9-904b-9a86dc112988"
 						name="setup">
@@ -209,6 +256,30 @@
 						name="teardown">
 							<testmodule
 							id="c873a981-a8d0-474a-aea6-2a3de2a458ab"
+							name="CloseAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="cf030ef8-3471-446d-b059-179f0be38bd6"
+					name="ValidaAltaPolizaQA">
+						<setup
+						id="e9f04383-47bf-42f6-a566-22e9e90ca59a"
+						name="setup">
+							<testmodule
+							id="3c113f41-e1a1-4190-a65a-81d125e5fa5a"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="47e2d494-21a5-499e-beae-a427d5175fd5"
+						name="ValidaAltaPolizaQA">
+						</testmodule>
+						<teardown
+						id="7462e9a1-a771-43d9-bec6-331c6c82dee2"
+						name="teardown">
+							<testmodule
+							id="1519b24b-e109-47f1-8766-2a68fc384705"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -261,9 +332,18 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="ValidaAltaSISE">
+	default="ValidaAltaPolizaQA">
 		<testconfiguration
-		name="ValidaAltaSISE">
+		name="ValidaAltaPolizaQA">
+			<testcontainer
+			id="58e386ba-3378-4080-a4a2-4f0786a91d93">
+			</testcontainer>
+			<testcontainer
+			id="cf030ef8-3471-446d-b059-179f0be38bd6">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="ValidaAltaSISEPreProd">
 			<testcontainer
 			id="05457b33-9c58-43e0-b590-259bad2472dc">
 			</testcontainer>
