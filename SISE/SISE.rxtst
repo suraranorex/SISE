@@ -73,6 +73,14 @@
 			name="ValidaAltaPolizaQA"
 			ref="c2afd4fe-10ec-44d9-bf9f-dd57c4b0926b"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="NumPoliza"
+					datasourceid="708b9b90-4543-48a7-86e6-bfe78604edb6"
+					variableid="44d22797-3625-4cde-863a-ed652a29eb88"
+					variablename="NroPoliza">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="5026dba8-b91b-4bb9-904b-9a86dc112988"
