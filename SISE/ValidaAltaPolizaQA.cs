@@ -131,8 +131,8 @@ namespace SISE
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(7));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Sura2040{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(8));
-            repo.SisePreProd.Self.PressKeys("Sura2040{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Sura2041{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(8));
+            repo.SisePreProd.Self.PressKeys("Sura2041{Return}");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));

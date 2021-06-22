@@ -341,7 +341,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="ValidaAltaSISEPreProd">
+	default="ValidaAltaPolizaQA">
 		<testconfiguration
 		name="ValidaAltaPolizaQA">
 			<testcontainer
