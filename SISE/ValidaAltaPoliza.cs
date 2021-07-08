@@ -149,49 +149,61 @@ namespace SISE
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(13));
+            ValidarLogin("**  M E N U  P R I N C I P A L  **", "Validación opción Menu Principal");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(14));
             repo.SisePreProd.Self.PressKeys("1{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(15));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(15));
-            repo.SisePreProd.Self.PressKeys("1{Return}");
+            ValidarLogin("** SOPORTE IT **", "Validación opción Soporte IT");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(16));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '2{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(17));
-            repo.SisePreProd.Self.PressKeys("2{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(17));
+            repo.SisePreProd.Self.PressKeys("1{Return}");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(18));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroPoliza' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(19));
-            repo.SisePreProd.Self.PressKeys(NroPoliza);
+            ValidarLogin("** CONSULTA DE POLIZAS/ENDOSOS **", "Validación Consulta Póliza");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(20));
-            repo.SisePreProd.Self.PressKeys("{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '2{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(20));
+            repo.SisePreProd.Self.PressKeys("2{Return}");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(21));
+            Delay.Duration(2000, false);
+            
+            ValidarLogin("** CONSULTA DE POLIZA/ENDOSO **", "Validación Consulta Poliza-Endoso");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroPoliza' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(23));
+            repo.SisePreProd.Self.PressKeys(NroPoliza);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SisePreProd'.", repo.SisePreProd.SelfInfo, new RecordItemIndex(24));
+            repo.SisePreProd.Self.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(25));
             Delay.Duration(2000, false);
             
             // Validación de Póliza Existente
             ValidarLogin(PolizaConvertida, "Validación de Póliza");
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SisePreProd.Self, false, new RecordItemIndex(23));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SisePreProd.Self, false, new RecordItemIndex(27));
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SisePreProd.Sistema' at 18;6.", repo.SisePreProd.SistemaInfo, new RecordItemIndex(24));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SisePreProd.Sistema' at 18;6.", repo.SisePreProd.SistemaInfo, new RecordItemIndex(28));
             //repo.SisePreProd.Sistema.Click("18;6");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Putty.CopyAllToClipboard' at 122;9.", repo.Putty.CopyAllToClipboardInfo, new RecordItemIndex(25));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Putty.CopyAllToClipboard' at 122;9.", repo.Putty.CopyAllToClipboardInfo, new RecordItemIndex(29));
             //repo.Putty.CopyAllToClipboard.Click("122;9");
             //Delay.Milliseconds(0);
             

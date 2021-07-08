@@ -1961,6 +1961,41 @@ g+U/XvRRW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH/9k=
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<userrecorditem
+		classname="ValidaAltaPoliza"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidarLogin"
+		namespace="SISE"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c2bfce58-288b-4614-88dc-4197572c56ae">
+				<argument
+				argname="TextoValidacion"
+				id="3add0899-4846-4774-a2cf-d9b5555974d6">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						**  M E N U  P R I N C I P A L  **
+					</argvalue>
+				</argument>
+				<argument
+				argname="TituloAccion"
+				id="ef91d8ce-b43c-47bd-9887-0332ec20ed35">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Validación opción Menu Principal
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<keysequenceitem
 		KeySequence="1{Return}"
 		duration="20ms"
@@ -1991,6 +2026,41 @@ g+U/XvRRW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH/9k=
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<userrecorditem
+		classname="ValidaAltaPoliza"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidarLogin"
+		namespace="SISE"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6d23d305-fd8e-4bca-9e68-53bb0a1dfddc">
+				<argument
+				argname="TextoValidacion"
+				id="87435f6e-02a4-43ae-ab8c-01321c96821a">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						** SOPORTE IT **
+					</argvalue>
+				</argument>
+				<argument
+				argname="TituloAccion"
+				id="63113ab1-c7a3-45cc-8ab2-4f275617813f">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Validación opción Soporte IT
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<keysequenceitem
 		KeySequence="1{Return}"
 		duration="20ms"
@@ -2021,6 +2091,41 @@ g+U/XvRRW0UuS5D3LVpfRXcCMCquwOY92SKni/1Kf7oooqJpJ2RUXdD6KKKgYUUUUAFFFFAH/9k=
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<userrecorditem
+		classname="ValidaAltaPoliza"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidarLogin"
+		namespace="SISE"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="13f40c4c-d8e6-439f-a461-abd7017bddf5">
+				<argument
+				argname="TextoValidacion"
+				id="cff30242-1645-46c1-84a6-b2c8936617d8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						** CONSULTA DE POLIZAS/ENDOSOS **
+					</argvalue>
+				</argument>
+				<argument
+				argname="TituloAccion"
+				id="722c1b22-cc33-4b3c-b385-d067ce5d5b25">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Validación Consulta Póliza
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<keysequenceitem
 		KeySequence="2{Return}"
 		duration="20ms"
@@ -2473,6 +2578,41 @@ V2BzHuyRU8X+pT/dFFFRNJOyKi7ofRRRUDCiiigAooooA//Z
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<userrecorditem
+		classname="ValidaAltaPoliza"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidarLogin"
+		namespace="SISE"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="85997648-c7f6-4ff7-a623-f5b77982a882">
+				<argument
+				argname="TextoValidacion"
+				id="ea45bc82-b009-494c-9e55-3c67fefc14e8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						** CONSULTA DE POLIZA/ENDOSO **
+					</argvalue>
+				</argument>
+				<argument
+				argname="TituloAccion"
+				id="31d65bf5-0d79-4d30-9067-4f65f63b41ec">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Validación Consulta Poliza-Endoso
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<keysequenceitem
 		KeySequence="04104008212"
 		duration="20ms"

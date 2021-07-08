@@ -191,7 +191,7 @@
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
 			VideoFps="15"
-			VideoRecordingMode="KeepFailedTests"
+			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
 			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
@@ -301,7 +301,7 @@
 		<DataSource
 		id="708b9b90-4543-48a7-86e6-bfe78604edb6"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="Polizas"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -341,7 +341,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="ValidaAltaPolizaQA">
+	default="ValidaAltaSISEPreProd">
 		<testconfiguration
 		name="ValidaAltaPolizaQA">
 			<testcontainer
